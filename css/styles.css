@@ -1,0 +1,146 @@
+@import url("http://fonts.uqstatic.net/Roboto/webfont.css");
+html, body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5em; }
+
+.wrapper {
+  max-width: 1380px;
+  margin: 0 auto; }
+
+h1 {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 36px; }
+
+h2 {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 28px; }
+
+h3 {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 24px; }
+
+p {
+  font-weight: 300; }
+
+a {
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+hr {
+  height: 1px;
+  background: #ccc;
+  border: 0; }
+
+figcaption {
+  font-style: italic;
+  text-align: center; }
+
+/* Typography */
+.date {
+  margin-bottom: 0.6em;
+  color: #6d6d6d; }
+
+.lead-text {
+  font-size: 20px;
+  font-weight: 400; }
+
+/*Forms */
+.share-subscribe {
+  padding: 0; }
+
+/* Images */
+figure {
+  margin: 0; }
+
+.image-crop-thumbnail {
+  float: left;
+  margin-right: 1em;
+  margin-top: 0.3em;
+  margin-bottom: 0.8em;
+  max-width: 7em;
+  max-height: 7em;
+  overflow: hidden;
+  display: block; }
+
+.primary-image img {
+  display: block;
+  margin: 0 auto; }
+
+.secondary-image img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto; }
+
+/* Icons */
+i {
+  color: #fff; }
+
+.social-share ul, .email ul, .twitter ul, .facebook ul, .googleplus ul {
+  float: right; }
+
+.social-share li, .email li, .twitter li, .facebook li, .googleplus li {
+  width: 45px;
+  height: 45px;
+  float: left;
+  display: block;
+  margin-right: 0.2em;
+  text-align: center;
+  line-height: 55px; }
+
+.email {
+  background: #dfdfdf; }
+
+.twitter {
+  background: #00aced; }
+
+.facebook {
+  background: #0b59aa; }
+
+.googleplus {
+  background: #d84d2f; }
+
+.social-share li a span, .email li a span, .twitter li a span, .facebook li a span, .googleplus li a span {
+  display: block;
+  line-height: 0;
+  height: 0;
+  overflow: hidden;
+  text-indent: -9999em; }
+
+/* Article */
+.page-header {
+  background: #ededed;
+  padding: 1em;
+  margin-left: -1em;
+  margin-right: -1em;
+  margin-bottom: 1em; }
+
+.article-content {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1em; }
+
+/* Listing */
+.list {
+  display: inline-block;
+  width: 100%; }
+
+.list_item {
+  background: #fff;
+  margin-bottom: 0.5em;
+  display: block;
+  float: left;
+  clear: both;
+  width: 100%;
+  border-bottom: 1px solid #ddd; }
+
+.list_item_title {
+  font-size: 1.3em; }
+
+.list_item_date {
+  color: #6d6d6d; }
+
+/*# sourceMappingURL=styles.css.map */
